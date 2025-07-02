@@ -11,4 +11,5 @@ passlib[bcrypt]
 python-jose
 python-dotenv
 fastapi[all]
-werkzeug 
+werkzeug
+requests 
