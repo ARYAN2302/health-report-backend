@@ -31,4 +31,3 @@ This is the FastAPI backend for the Health Lab Report Dashboard project.
 
 ---
 
-For more details, see the frontend repo or contact the maintainer. 
