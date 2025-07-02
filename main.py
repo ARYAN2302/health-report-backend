@@ -1,10 +1,14 @@
+import os
+import models
+import schemas
+import database
+import auth
+import utils
 from fastapi import FastAPI, Depends, HTTPException, status, File, UploadFile, Form, Body
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 from typing import List
-import os
-from . import models, schemas, database, auth, utils
 from fastapi.responses import JSONResponse
 import requests
 
