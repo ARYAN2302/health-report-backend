@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pytesseract
+pdfplumber
+PyPDF2
+pillow
+sqlalchemy
+alembic
+passlib[bcrypt]
+python-jose
+python-dotenv
+fastapi[all] 
