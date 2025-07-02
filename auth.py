@@ -4,7 +4,9 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 from datetime import datetime, timedelta
-from . import models, schemas, database
+import models
+import schemas
+import database
 import os
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'supersecretkey')
