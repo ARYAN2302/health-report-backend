@@ -10,4 +10,5 @@ alembic
 passlib[bcrypt]
 python-jose
 python-dotenv
-fastapi[all] 
+fastapi[all]
+werkzeug 
